@@ -6,7 +6,10 @@ namespace FIrstProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name;
+            Console.WriteLine("Enter your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Hello {0}", name);
         }
     }
 }
